@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Montsserat";
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montsserat-S";
+  src: url(../fonts/MontserratSubrayada-Regular.ttf);
+}
+@font-face {
+  font-family: "28Days";
+  src: url(../fonts/28dayslatercyr.ttf);
+}
+body {
+  font-family: "Montsserat";
+}
+.navbar-brand {
+  font-family: "Montsserat-S";
+  font-size: 24px;
+}
+.navbar {
+  border-bottom: 2px #b175ff solid;
+  border-radius: 0px 0px 25px 25px;
+}
+.navbar-purple {
+  background-color: #efe2ff;
+}
+.nav-link {
+  color: rgb(130, 66, 248);
+}
+.nav-link:focus {
+  color: rgb(255, 255, 255);
+}
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+.nav-link.active {
+  color: white;
+}
+main {
+  margin-top: 70px;
+}
+.text-pink {
+  color: #dcc1ff;
+}
+.text-purple {
+  color: rgb(222, 217, 233);
+}
+.text-black-purple {
+  color: #733cba;
+}
+.bg-black-purple {
+  background-color: #733cba;
+}
+.main-section {
+  margin-top: 50px;
+  border-top: 1px #b175ff solid;
+}
+.title-section-top {
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+.title-section-bottom {
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+.link {
+  text-decoration: none;
+  color: #da40cd;
+}
+.text-very-pink {
+  color: #ffa8f8;
+}
+.link:hover {
+  text-shadow: 0px 0px 5px rgb(226, 90, 194);
+}
+.bg-purple {
+  background-color: #e2d2ff;
+}
+.cont-bg {
+  box-shadow: 0px 0px 7px rgb(226, 90, 194);
+}
+.cont-img {
+  box-shadow: 0px 0px 5px rgb(226, 90, 194);
+  width: 25px;
+}
+.cont-map {
+  border: 1px rgb(214, 144, 255) solid;
+  box-shadow: 0px 0px 7px rgb(226, 90, 194);
+  border-radius: 20px;
+  width: 150px;
+}
+.learning {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.cont-btn {
+  margin-top: 20px;
+}
+
+.ra-btn {
+  margin-top: 20px;
+  border: 1px #ffa8f8 solid;
+  color: #da40cd;
+}
+.ra-btn:hover {
+  background-color: #f7cff2;
+  border: 1px #ffa8f8 solid;
+  color: #ffffff;
+}
+.ra-btn-v {
+  height: 30px;
+  margin-top: 20px;
+  border: 1px #bfa8ff solid;
+  color: #6140da;
+  font-size: 12px;
+}
+.ra-btn-v:hover {
+  border: 1px #bfa8ff solid;
+  background-color: #d4caff;
+  color: #ffffff;
+  font-size: 12px;
+}
+.text-logo {
+  font-family: "28Days";
+  font-size: 12px;
+}
+.forms {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

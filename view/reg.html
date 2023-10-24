@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../media/img/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Programming on PHP</title>
+  </head>
+  <body>
+    <div
+      class="container-fluid"
+      style="background-image: url(../media/img/background.png)"
+    >
+      <header style="margin-top: 20px">
+        <div class="container-fluid text-center">
+          <a href="../index.html">
+            <img
+              src="../media/img/logo.png"
+              alt=""
+              width="100"
+              height="100"
+              class="d-inline-block"
+            />
+          </a>
+          <br />
+          <a
+            class="navbar-brand text-wrap"
+            style="font-size: 29px; width: 6rem"
+            href="../index.html"
+          >
+            PPHP
+            <p class="text-logo">Programming on PHP</p></a
+          >
+        </div>
+      </header>
+      <main>
+        <form action="" method="post">
+          <section class="forms">
+            <div class="card col-md-3 form-card" style="border-radius: 20px">
+              <div class="card-body">
+                <h2
+                  class="text-center text-pink"
+                  style="font-size: 24px; padding-bottom: 10px"
+                >
+                  Регистрация
+                </h2>
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    name="login"
+                    placeholder="Введите ваше имя"
+                  />
+                  <label class="text-purple" for="floatingInput">Логин</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    name="email"
+                    placeholder="Введите ваше имя"
+                  />
+                  <label class="text-purple" for="floatingInput">Почта</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="floatingInput"
+                    name="password"
+                    placeholder="Введите вашу почту"
+                  />
+                  <label class="text-purple" for="floatingInput">Пароль</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="floatingInput"
+                    name="r_password"
+                    placeholder="Введите вашу почту"
+                  />
+                  <label class="text-purple" for="floatingInput"
+                    >Повтрорите Пароль</label
+                  >
+                </div>
+                <input
+                  type="submit"
+                  class="ra-btn btn btn-outline-info"
+                  value="Зарегистрироваться"
+                />
+                <a href="auth.html" class="ra-btn-v btn btn-outline-info"
+                  >Войти
+                </a>
+              </div>
+            </div>
+          </section>
+        </form>
+      </main>
+      <footer
+        class="text-center text-white"
+        style="background-color: #c6bcfe; margin-top: 204px"
+      >
+        <div class="container p-4 pb-0">
+          <p class="d-flex justify-content-center align-items-center">
+            <span class="me-3">Рады сного вас видеть!</span>
+          </p>
+        </div>
+
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="#banner">PPHP</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

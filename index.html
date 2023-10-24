@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="media/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Programming on PHP</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-purple">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="media/img/logo.png"
+                alt=""
+                width="30"
+                height="28"
+                class="d-inline-block align-text-top"
+              />
+              PPHP
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#banner"
+                    >Главная</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#About"
+                    >О нас</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#services"
+                    >Услуги</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#feedback"
+                    >Обратная связь</a
+                  >
+                </li>
+              </ul>
+              <a
+                class="navbar-nav nav-link navbar-nav-scroll"
+                aria-current="page"
+                href="view/reg.html"
+              >
+                Регистрация
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section id="banner" class="main-section banner">
+          <div class="position-relative overflow-hidden">
+            <div class="d-flex min-vh-100" lc-helper="video-bg">
+              <video
+                style="z-index: 1; object-fit: cover; object-position: 50% 50%"
+                class="position-absolute w-100 min-vh-100"
+                autoplay=""
+                preload=""
+                muted=""
+                loop=""
+                playsinline=""
+              >
+                <!-- adjust object-position to tweak cropping on mobile -->
+                <source src="media/video/background.mp4" type="video/mp4" />
+              </video>
+              <div
+                style="z-index: 2"
+                class="align-self-center text-center col-md-8 offset-md-2"
+              >
+                <div class="lc-block mb-4">
+                  <div editable="rich">
+                    <h1 class="display-1 fw-bolder text-pink">
+                      Программируй на PHP вместе с нами!
+                    </h1>
+                  </div>
+                </div>
+
+                <div class="lc-block text-purple">
+                  <div editable="rich">
+                    <p class="lead">
+                      Начти уже сегодня изучать программирование на PHP и стань
+                      одним из нас!
+                    </p>
+                    <p class="lead">
+                      Наша команда предоставит тебе только необходимые знания!
+                    </p>
+                    <p class="lead">
+                      <a
+                        class="btn btn-outline-light btn-lg"
+                        href="#"
+                        role="button"
+                        >Присоединиться!</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <i id="About">&nbsp;</i>
+        <section class="main-section About">
+          <h2
+            id="About"
+            class="title-section-top fw-bolder text-black-purple text-center"
+          >
+            Немного о нас
+          </h2>
+          <div class="card mb-3" style="max-width: 100%; border-radius: 20px">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src="media/img/cont1.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Одни из лучшие преподавателей именно у нас!
+                  </h5>
+                  <p class="card-text">
+                    В нашей школе PHP преподают одни из самых лучших
+                    преподавателей в Арзамасе! Лекции составляются в ручную ими
+                    же.Они обладают глубокими знаниями и опытом работы с PHP,
+                    что позволяет им передать студентам не только теоретические
+                    знания, но и практические навыки. Благодаря их
+                    профессионализму, ученики могут быть уверены в том, что
+                    получат качественное образование и смогут успешно применять
+                    свои знания на практике.Они также используют самые
+                    современные методы обучения и различные интерактивные формы,
+                    чтобы сделать процесс обучения более интересным и
+                    увлекательным. Они всегда готовы помочь и ответить на все
+                    вопросы студентов, а также поделиться своими знаниями и
+                    опытом. А еще у них есть все необходимое оборудование для
+                    выполнения практических заданий и проектов в рамках курса,
+                    что позволяет студентам глубже погрузиться в
+                    программирование на PHP и быстро достигать успехов в этой
+                    области.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 100%; border-radius: 20px">
+            <div class="row g-0">
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Понятные и просые лекции!</h5>
+                  <p class="card-text">
+                    Мы понимаем, что программирование может быть сложным и
+                    запутанным процессом, поэтому стараемся разбить материалы на
+                    легкоусвояемые блоки, которые помогут вам идеально освоить
+                    каждую тему. Наше обучение включает в себя как основные
+                    принципы программирования на PHP, так и продвинутые темы,
+                    такие как работа с базами данных, создание веб-приложений и
+                    разработка эффективного кода. Наша цель - сделать сложные
+                    концепции программирования на PHP понятными и доступными для
+                    всех. Простые лекции, которые мы предлагаем, основаны на
+                    принципах четкости, последовательности и понятности. Мы
+                    разбиваем сложные концепции на маленькие шаги, объясняя
+                    каждый шаг подробно и иллюстрируя примерами.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <img
+                  src="media/img/cont2.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 100%; border-radius: 20px">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src="media/img/cont3.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Эффективная тех-поддержка</h5>
+                  <p class="card-text">
+                    Наши клиенты для нас - самое важное! Мы понимаем, что
+                    технические проблемы могут вызывать стресс и сильно
+                    затруднять работу, поэтому мы предоставляем эффективную
+                    тех-поддержку, которая всегда готова помочь вам в решении
+                    любых проблем. Наша команда технической поддержки состоит из
+                    специалистов, которые смогут быстро и профессионально решить
+                    любые технические вопросы и проблемы, с которыми вы можете
+                    столкнуться при работе на нашем сайте. Мы предлагаем
+                    различные каналы связи, такие как телефон, электронная почта
+                    и чат в реальном времени, чтобы вы могли связаться с нами в
+                    любое удобное для вас время. Мы готовы помочь вам в любые
+                    часы, чтобы вы могли решить свои проблемы быстро и
+                    эффективно. Мы также предлагаем регулярные обновления и
+                    техническую поддержку для нашего сайта, чтобы обеспечить
+                    максимальную производительность и надежность нашей
+                    платформы. Мы стремимся создавать сильный и доверительный
+                    партнерский отношение с нашими клиентами и делаем все, чтобы
+                    помочь им достичь своих целей.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lc-block mb-4">
+            <h3 class="title-section-bottom fw-bolder text-pink text-center">
+              Мы вас ждем!
+            </h3>
+            <p class="text-bottom text-center">
+              <a href="#" class="link fw-bolder">Присоеденяйтесь</a> к нам
+              сейчас и начинайте изучать
+              <span class="text-black-purple fw-bolder">PHP</span> уже сегодня!
+            </p>
+          </div>
+        </section>
+        <i id="services">&nbsp;</i>
+        <section class="main-section services">
+          <h2 class="title-section-top fw-bolder text-black-purple text-center">
+            Что мы предлагаем
+          </h2>
+          <div class="card-group">
+            <div class="card bg-purple">
+              <img
+                src="media/img/serv1.jpg"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Бесплатные курсы</h5>
+                <p class="card-text">
+                  У нас вы можите научиться программировать на PHP совершенно
+                  бесплатно!
+                </p>
+              </div>
+            </div>
+            <div class="card bg-purple">
+              <img
+                src="media/img/serv2.jpg"
+                class="card-img-top"
+                alt="Palm Springs Road"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Практические задания</h5>
+                <p class="card-text">
+                  Наши практические задания помогут вам усвоить теоритеческий
+                  материал куда лучше.
+                </p>
+              </div>
+            </div>
+            <div class="card bg-purple">
+              <img
+                src="media/img/serv3.jpg"
+                class="card-img-top"
+                alt="Los Angeles Skyscrapers"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Итоговое тестирование</h5>
+                <p class="card-text">
+                  В конце каждой лекции вы можите пройти итоговый тест, чтобы
+                  узнать насколько вы продвинулись в обучении.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <i id="feedback">&nbsp;</i>
+        <section class="main-section feedback">
+          <h2 class="title-section-top fw-bolder text-black-purple text-center">
+            Связаться с нами
+          </h2>
+          <div class="card mb-10" style="max-width: 100%">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <div class="card text-white">
+                  <img
+                    src="media/img/Contact.jpg"
+                    class="cont-bg card-img"
+                    alt="..."
+                  />
+                  <div
+                    class="card-img-overlay"
+                    style="background-color: rgba(85, 85, 85, 0.281)"
+                  >
+                    <h5
+                      class="card-titl text-center text-purple"
+                      style="text-shadow: 0px 0px 5px rgb(172, 90, 226)"
+                    >
+                      Наши данные
+                    </h5>
+                    <p
+                      class="card-text text-center text-white"
+                      style="margin-top: 30px"
+                    >
+                      <img class="cont-img" src="media/img/Tico.png" alt="" />
+                      Телефон: 8 (930) 696-44-94
+                    </p>
+                    <p
+                      class="card-text text-center text-white"
+                      style="margin-top: 30px"
+                    >
+                      <img class="cont-img" src="media/img/Eico.png" alt="" />
+                      Почта: pphp@gmail.com
+                    </p>
+                    <p
+                      class="card-text text-center text-white"
+                      style="margin-top: 30px"
+                    >
+                      <img class="cont-img" src="media/img/Aico.png" alt="" />
+                      Адресс: ул. Жуковского, 2, Арзамас, Нижегородская обл.,
+                      607227
+                    </p>
+                    <p
+                      class="card-text text-center text-white d-none d-xl-block"
+                      style="margin-top: 30px"
+                    >
+                      <img class="cont-map" src="media/img/map.png" alt="" />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-very-pink">
+                    Заполните форму
+                  </h5>
+                  <form action="" method="post">
+                    <div class="form-floating mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="Введите ваше имя"
+                      />
+                      <label class="text-purple" for="floatingInput">Имя</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="Введите вашу почту"
+                      />
+                      <label class="text-purple" for="floatingInput"
+                        >Email адрес</label
+                      >
+                    </div>
+                    <div class="form-floating">
+                      <textarea
+                        class="form-control"
+                        placeholder="Оставьте свой коментарий"
+                        id="floatingTextarea2"
+                        style="height: 100px"
+                      ></textarea>
+                      <label class="text-purple" for="floatingTextarea2"
+                        >Коментарий</label
+                      >
+                    </div>
+                    <input
+                      type="submit"
+                      class="cont-btn btn btn-outline-info"
+                      value="Отправить"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer
+        class="text-center text-white"
+        style="background-color: #c6bcfe; margin-top: 100px"
+      >
+        <div class="container p-4 pb-0">
+          <p class="d-flex justify-content-center align-items-center">
+            <span class="me-3">Присоедениться</span>
+            <button type="button" class="btn btn-outline-light btn-rounded">
+              Регистрация
+            </button>
+          </p>
+        </div>
+
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="#banner">PPHP</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
